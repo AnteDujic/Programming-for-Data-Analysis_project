@@ -13,12 +13,29 @@ This repository contains a Jupyter notebook *bmi_ireland.ipynb*, done as a proje
 5. Open notebook in Jupyter
 
 Alternatively:
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/AnteDujic/Programming-for-Data-Analysis_project/HEAD) *click for interactive version*
-[![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.org/github/AnteDujic/Programming-for-Data-Analysis_project/blob/main/bmi_ireland.ipynb) *click for static version* 
+- [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/AnteDujic/Programming-for-Data-Analysis_project/HEAD) *click for interactive version*
+- [![nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.org/github/AnteDujic/Programming-for-Data-Analysis_project/blob/main/bmi_ireland.ipynb) *click for static version* 
 
 ### NOTEBOOK OVERVIEW
 
-The aim of this project is to show a step by step simulation of a dataset of BMI and Alcohol consumption in Ireland. Ireland has one of the highest levels of obesity in Europe, with 60% of adults and over one in five children and young people living with overweight and obesity. [17] Alcohol consumption is often linked to a high weight. Average BMI is increased with an increased level of alcohol consumption in men and women. [4] 
-The data is modeled and synthesised using numpy.random package in Python. Notebook is separated into the three sections. First section is a Research section, where I'll explain what each variable represents and it's real life properties. In second section, Simulation, I will simulate each of the variables based on the research done. Data Analysis is the last section and here I will analyse the generated database and see if and how it reflects the real life.
+The aim of this project is to show a step by step simulation of a dataset of BMI and Alcohol consumption in Ireland. Ireland has one of the highest levels of obesity in Europe, with 60% of adults and over one in five children and young people living with overweight and obesity. [17] Alcohol consumption is often linked to a high weight. Average BMI is increased with an increased level of alcohol consumption in men and women. [4]
+<br>
+The data is modeled and synthesised using *numpy.random* package in Python. Notebook is separated into the three sections. First section is a Research section, where it is explained what each variable represents and it's real life properties. In second section, Simulation, it is shown how to simulate each of the variables based on the research done. Data Analysis is the last section and contains the analysis of the generated database.
+
+The variables and the methods used to simulate them are shown in the table below:
+
+| VARIABLE | SIMULATION METHOD |
+| :- | :- |
+| id | library name |
+| gender |  numpy choice|
+| age |  numpy normal|
+| height | numpy multivariate_normal |
+| weight | numpy multivariate_normal |
+| bmi |  formula weight(kg)/height(m)^2|
+| alcohol_con | numpy multivariate_normal |
+| bmi_class | if condition in bmi |
+
+#### SIMULATED DATASET
+
 
 ### CREDITS
