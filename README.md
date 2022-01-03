@@ -2,7 +2,7 @@
 ### AUTHOR: ANTE DUJIC
 ***
 
-This repository contains a Jupyter notebook *bmi_ireland.ipynb*, done as a project for Programming for Data Analysis module on GMIT, Ireland. It also contains this README file with an overview of the mentioned notebook and *requirements.txt* file with a list of necessary libraries to run this project.
+This repository contains a Jupyter notebook *bmi_ireland.ipynb*, done as a project for Programming for Data Analysis module on GMIT, Ireland. It also contains this README file with an overview of the mentioned notebook, *requirements.txt* file with a list of necessary libraries to run this project, *dataset.png* image of 20 first rows of the dataset and *bmi_ireland.csv* which is the full simulated dataset.
 
 ### HOW TO RUN THIS PROJECT?
 
@@ -35,8 +35,6 @@ The variables and the methods used to simulate them are shown in the table below
 | alcohol_con(g/pd) | numpy multivariate_normal |
 | bmi_class | if condition in bmi |
 
-#### SIMULATED DATASET
+#### SIMULATED DATASET (first 20 rows)
 
 ![](https://github.com/AnteDujic/Programming-for-Data-Analysis_project/blob/main/dataset.png)
-
-### CREDITS
