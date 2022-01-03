@@ -29,13 +29,14 @@ The variables and the methods used to simulate them are shown in the table below
 | id | library name |
 | gender |  numpy choice|
 | age |  numpy normal|
-| height | numpy multivariate_normal |
-| weight | numpy multivariate_normal |
+| height(cm) | numpy multivariate_normal |
+| weight(kg) | numpy multivariate_normal |
 | bmi |  formula weight(kg)/height(m)^2|
-| alcohol_con | numpy multivariate_normal |
+| alcohol_con(g/pd) | numpy multivariate_normal |
 | bmi_class | if condition in bmi |
 
 #### SIMULATED DATASET
 
+![](https://github.com/AnteDujic/Programming-for-Data-Analysis_project/blob/main/dataset.png)
 
 ### CREDITS
